@@ -6,6 +6,39 @@
 	<string></string>
 	<key>connections</key>
 	<dict>
+		<key>0701240C-CFF9-4223-BB39-BEE07C96343C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EBB6CC0E-CD42-4224-AFC7-542E57681D60</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>2891874A-475E-46B9-9AF5-399EA233E0B5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5E247ED0-7454-497E-A3DD-76F65BFADEAD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>56D4DCFF-D046-4F4C-BDA9-C986F15C8AEF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DF519D38-23C2-49E1-A308-6CA1757FBB09</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>6B5AB80C-84F8-4CCA-A7EB-7906F4BC16EE</key>
 		<array>
 			<dict>
@@ -305,7 +338,7 @@ end alfred_script</string>
 				<key>hotkey</key>
 				<integer>38</integer>
 				<key>hotmod</key>
-				<integer>524288</integer>
+				<integer>655360</integer>
 				<key>hotstring</key>
 				<string>J</string>
 				<key>leftcursor</key>
@@ -332,7 +365,7 @@ end alfred_script</string>
 				<key>hotkey</key>
 				<integer>38</integer>
 				<key>hotmod</key>
-				<integer>655360</integer>
+				<integer>524288</integer>
 				<key>hotstring</key>
 				<string>J</string>
 				<key>leftcursor</key>
@@ -365,6 +398,150 @@ end alfred_script</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Sketch.app</string>
+				</array>
+				<key>toggle</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>DF519D38-23C2-49E1-A308-6CA1757FBB09</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>19</integer>
+				<key>hotmod</key>
+				<integer>1048576</integer>
+				<key>hotstring</key>
+				<string>2</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>56D4DCFF-D046-4F4C-BDA9-C986F15C8AEF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>18</integer>
+				<key>hotmod</key>
+				<integer>1048576</integer>
+				<key>hotstring</key>
+				<string>1</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>2891874A-475E-46B9-9AF5-399EA233E0B5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Pocket.app</string>
+				</array>
+				<key>toggle</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>5E247ED0-7454-497E-A3DD-76F65BFADEAD</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>20</integer>
+				<key>hotmod</key>
+				<integer>1048576</integer>
+				<key>hotstring</key>
+				<string>3</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>0701240C-CFF9-4223-BB39-BEE07C96343C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  set is_running to true
+  if application "Finder" is running then
+    set app_name to "Finder"
+  else
+    set is_running to false
+	do shell script "open -a Finder"
+  end if
+
+  if is_running then
+    tell application "System Events"      if frontmost of process app_name then        set visible of process app_name to false
+      else
+        do shell script "open -a " &amp; app_name	  end if    end tell
+  end if  
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>EBB6CC0E-CD42-4224-AFC7-542E57681D60</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -374,6 +551,26 @@ end alfred_script</string>
 		<dict>
 			<key>ypos</key>
 			<real>360</real>
+		</dict>
+		<key>0701240C-CFF9-4223-BB39-BEE07C96343C</key>
+		<dict>
+			<key>ypos</key>
+			<real>960</real>
+		</dict>
+		<key>2891874A-475E-46B9-9AF5-399EA233E0B5</key>
+		<dict>
+			<key>ypos</key>
+			<real>840</real>
+		</dict>
+		<key>56D4DCFF-D046-4F4C-BDA9-C986F15C8AEF</key>
+		<dict>
+			<key>ypos</key>
+			<real>720</real>
+		</dict>
+		<key>5E247ED0-7454-497E-A3DD-76F65BFADEAD</key>
+		<dict>
+			<key>ypos</key>
+			<real>840</real>
 		</dict>
 		<key>6258453E-1DFF-45FE-9974-9607AAF33AE5</key>
 		<dict>
@@ -420,10 +617,20 @@ end alfred_script</string>
 			<key>ypos</key>
 			<real>240</real>
 		</dict>
+		<key>DF519D38-23C2-49E1-A308-6CA1757FBB09</key>
+		<dict>
+			<key>ypos</key>
+			<real>720</real>
+		</dict>
 		<key>E228194A-C214-41FB-8CCF-054C56F7D708</key>
 		<dict>
 			<key>ypos</key>
 			<real>240</real>
+		</dict>
+		<key>EBB6CC0E-CD42-4224-AFC7-542E57681D60</key>
+		<dict>
+			<key>ypos</key>
+			<real>960</real>
 		</dict>
 		<key>F262E8C3-74E2-4243-8804-B3E852D2791B</key>
 		<dict>
